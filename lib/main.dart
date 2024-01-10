@@ -1,6 +1,7 @@
 import 'package:api_practice/bottom_navigation_bar.dart';
 import 'package:api_practice/get_x.dart';
 import 'package:api_practice/get_x_example.dart';
+import 'package:api_practice/my_animations.dart';
 import 'package:api_practice/my_dialog_box.dart';
 
 import 'package:flutter/material.dart';
@@ -37,6 +38,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const MyExample());
+        home: const MyAnimations());
   }
 }
